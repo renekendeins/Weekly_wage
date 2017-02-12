@@ -1,0 +1,342 @@
+
+html{
+
+
+}
+
+
+#tabla table{
+
+
+	height: 70%;
+	background-color: rgba(255,255,255,1);
+
+
+}
+
+#tabla table tr th{
+
+height: 70px !important;
+width: 7.14%;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+		font-weight: bold;
+	
+}
+
+
+#tabla table tr:nth-child(2) th:nth-child(1) {
+
+
+
+	border-top: none;
+	border-bottom: none;
+	color: green;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#tabla table tr:nth-child(1) th:nth-child(1) {
+
+
+
+	
+	border-bottom: none;
+}
+
+#tabla table tr:nth-child(1) th:nth-last-child(1),
+#tabla table tr:nth-child(2) th:nth-last-child(1),
+#tabla table tr:nth-child(3) th:nth-last-child(1){
+
+font-size: 15px;
+
+}
+
+
+#tabla table tr:nth-child(3) th:nth-child(1) {
+
+
+
+	border-top: none;
+
+}
+
+
+
+#tabla table tr:nth-last-child(1) th:nth-child(1), 
+#tabla table tr:nth-last-child(2) th:nth-child(1) {
+
+
+border: none;
+}
+
+#tabla{
+
+	margin-top: 0px;
+}
+
+
+#tabla table tr:nth-child(4) th:nth-child(1) {
+
+
+
+background-color: rgba(0,0,0,0);
+
+}
+
+#tabla table tr:nth-child(4) th:nth-last-child(1),
+#tabla table tr:nth-child(5) th:nth-last-child(1) {
+
+
+
+background-color: rgba(0,0,0,0);
+border: none;
+
+}
+
+/*-----------------------COLORES NUMEROS--------------*/
+
+#tabla table tr:nth-child(1) th:nth-child(2), 
+#tabla table tr:nth-child(1) th:nth-child(4), 
+#tabla table tr:nth-child(1) th:nth-child(5), 
+#tabla table tr:nth-child(1) th:nth-child(7),
+#tabla table tr:nth-child(1) th:nth-child(8), 
+#tabla table tr:nth-child(1) th:nth-child(10), 
+#tabla table tr:nth-child(1) th:nth-child(11), 
+#tabla table tr:nth-child(1) th:nth-child(13), 
+#tabla table tr:nth-child(2) th:nth-child(3), 
+#tabla table tr:nth-child(2) th:nth-child(6), 
+#tabla table tr:nth-child(2) th:nth-child(9), 
+#tabla table tr:nth-child(2) th:nth-child(12), 
+#tabla table tr:nth-child(3) th:nth-child(2), 
+#tabla table tr:nth-child(3) th:nth-child(4), 
+#tabla table tr:nth-child(3) th:nth-child(7), 
+#tabla table tr:nth-child(3) th:nth-child(8), 
+#tabla table tr:nth-child(3) th:nth-child(10), 
+#tabla table tr:nth-child(3) th:nth-child(13){
+
+	color: red;
+} 
+
+#n1, #n3, #n5, #n7, #n9, #n12, #n14, #n16, #n18, #n19, #n21, #n23, #n25, #n27, #n30, #n32, #n34, #n36{
+	color: red !important;
+}
+
+
+#tabla table tr:nth-child(5) th #rojo {
+
+
+
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: -10px;
+} 
+
+#tabla table tr:nth-child(5) th #negro {
+
+
+
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: -10px;
+} 
+
+#comandos{
+	height: 10%;
+	margin-bottom: 10px;
+}
+
+#select{
+
+float: left;
+
+	width: 45%;
+	height: 80%;
+	margin-top: 1%;
+}
+
+option{
+
+font-size: 30px;
+width: 50px;
+
+}
+
+#btn-anadir{
+
+	font-size: 25px;
+	width: 45%;
+	
+	height: 80%;
+	margin-top: 1%;
+float: right;
+vertical-align: middle;
+
+}
+
+#tabla table tr th {
+				
+				
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			#tabla table tr th div{
+				
+				
+			margin-top: -30px;
+			font-size: 15px;
+			}
+			
+#divTablaMuestra  table tr th{
+	
+	
+	
+	min-width: 30px;
+	text-align: center;
+	border: 1px solid black;
+	height: 30px;
+	
+}
+
+#divTablaMuestra{
+	text-align: center;
+}
+
+
+#d0{
+	
+		
+
+	width: 100%;
+padding: 30px;
+	
+	
+	
+	
+}
+
+#d1{
+	
+	
+	position: relative;
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+	margin: 0 auto;
+	border-radius: 50%;
+	
+}
+
+#d2{
+	
+		height: 350px;
+	width: 350px;
+	border: 1px solid black;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 25px;
+	
+}
+
+#dn0{
+	
+	position: absolute;
+	height: 50%;
+	width: 10px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+#dn1{
+	position: absolute;
+		height: 50%;
+	width: 1px;
+	border: 1px solid black;
+	margin: 0 auto;
+	transform: rotate(9.792deg);
+	
+	
+}
+
+#dn2{
+	position: absolute;
+		height: 50%;
+	width: 1px;
+	border: 1px solid black;
+	margin: 0 auto;
+	transform: rotate(19.549deg);
+	
+	
+}
+
+#dn3{
+	position: absolute;
+		height: 50%;
+	width: 1px;
+	border: 1px solid black;
+	margin: 0 auto;
+	transform: rotate(29.189deg);
+	
+	
+}
+
+#dn4{
+	position: absolute;
+		height: 50%;
+	width: 1px;
+	border: 1px solid black;
+	margin: 0 auto;
+	transform: rotate(19.549deg);
+	
+	
+}
+
+#dn5{
+	position: absolute;
+		height: 50%;
+	width: 1px;
+	border: 1px solid black;
+	margin: 0 auto;
+	transform: rotate(19.549deg);
+	
+	
+}
+
+
+#pos th{
+	
+	font-size: 10px;
+	border: 0px !important;
+	padding-bottom: 10px;
+}
+
+#posHot th{
+	
+	font-size: 10px;
+	border: 0px !important;
+	padding-top: 10px;
+}
+
+
+
+
+#divTablaHot table tr th{
+	
+	
+	border: 1px solid black;
+	height: 30px;
+	width: 30px;
+}

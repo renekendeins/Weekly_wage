@@ -1,0 +1,487 @@
+<!doctype>
+
+
+<html>
+	<head>
+		<title> Ruleta</title>
+		<meta charset="utf-8">
+ 		<link rel="icon" type="favicon" href="imagenes/favicon.png">
+		<link rel="stylesheet" href="librerias/w3css.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	
+		
+		
+	</head>
+	<body>
+
+
+
+
+
+<div id="comandos" class="w3-container s12 m12 l12 ">
+
+<select id="select" class="s9 m9 l9 w3-xxlarge">
+	
+
+
+
+<option value="0 ">0</option>	
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+
+
+
+
+
+</select>
+
+
+<button id="btn-anadir" class="w3-green" type="button"> ACEPTAR</button>
+
+
+
+
+
+</div>
+
+<div id="divTablaMuestra">
+	
+	<table style="margin: 0 auto">
+		<tr>
+			
+			
+			<th id="ultimo1"></th>
+			<th id="ultimo2"></th>
+			<th id="ultimo3"></th>
+			<th id="ultimo4"></th>
+			<th id="ultimo5"></th>
+			<th id="ultimo6"></th>
+			<th id="ultimo7"></th>
+			<th id="ultimo8"></th>
+			<th id="ultimo9"></th>
+			<th id="ultimo10"></th>
+			<th id="ultimo11"></th>
+			<th id="ultimo12"></th>
+			<th id="ultimo13"></th>
+			<th id="ultimo14"></th>
+			<th id="ultimo15"></th>
+			<th id="ultimo16"></th>
+			<th id="ultimo17"></th>
+			<th id="ultimo18"></th>
+			<th id="ultimo19"></th>
+			<th id="ultimo20"></th>
+			<th id="ultimo21"></th>
+			<th id="ultimo22"></th>
+			<th id="ultimo23"></th>
+			<th id="ultimo24"></th>
+			<th id="ultimo25"></th>
+			<th id="ultimo26"></th>
+			<th id="ultimo27"></th>
+			<th id="ultimo28"></th>
+			<th id="ultimo29"></th>
+			<th id="ultimo30"></th>
+			
+		</tr>
+		
+		<tr id="pos">
+			
+			
+			<th id="pultimo1">1</th>
+			<th id="pultimo2">2</th>
+			<th id="pultimo3">3</th>
+			<th id="pultimo4">4</th>
+			<th id="pultimo5">5</th>
+			<th id="pultimo6">6</th>
+			<th id="pultimo7">7</th>
+			<th id="pultimo8">8</th>
+			<th id="pultimo9">9</th>
+			<th id="pultimo10">10</th>
+			<th id="pultimo11">11</th>
+			<th id="pultimo12">12</th>
+			<th id="pultimo13">13</th>
+			<th id="pultimo14">14</th>
+			<th id="pultimo15">15</th>
+			<th id="pultimo16">16</th>
+			<th id="pultimo17">17</th>
+			<th id="pultimo18">18</th>
+			<th id="pultimo19">19</th>
+			<th id="pultimo20">20</th>
+			<th id="pultimo21">21</th>
+			<th id="pultimo22">22</th>
+			<th id="pultimo23">23</th>
+			<th id="pultimo24">24</th>
+			<th id="pultimo25">25</th>
+			<th id="pultimo26">26</th>
+			<th id="pultimo27">27</th>
+			<th id="pultimo28">28</th>
+			<th id="pultimo29">29</th>
+			<th id="pultimo30">30</th>
+			
+		</tr>
+	</table>
+	
+	
+	
+	
+</div>
+
+
+
+
+
+
+
+
+<div id="tabla" style="padding-bottom: 5px" class=" w3-container s12 m12 l12 ">
+<table class="w3-table ">
+
+
+
+
+	<tr>		
+
+		<th id="c0"> </th>
+
+		<th  value="3 "> <div id="n3" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 3 </th>
+
+		<th  value="6 "> <div id="n6" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 6 </th>
+
+		<th  value="9 "> <div id="n9" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 9 </th>
+
+		<th  value="12"> <div id="n12" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 12</th>
+
+		<th  value="15"> <div id="n15" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 15</th>
+
+		<th  value="18"> <div id="n18" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 18</th>
+
+		<th  value="21"> <div id="n21" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 21</th>
+
+		<th  value="24"> <div id="n24" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 24</th>
+
+		<th  value="27"> <div id="n27" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 27</th>
+
+		<th  value="30"> <div id="n30" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 30</th>
+
+		<th  value="33"> <div id="n33" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 33</th>
+
+		<th  value="36"> <div id="n36" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 36</th>
+
+		<th> <div  id="fila1" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>2 a 1</th>
+
+
+	</tr>							
+	<tr>		
+		<th  value="0 "> <div id="n0" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>0 </th>
+
+		<th  value="2 "> <div id="n2" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>2 </th>
+
+		<th  value="5 "> <div id="n5" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>5 </th>
+
+		<th  value="8 "> <div id="n8" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>8 </th>
+
+		<th  value="11"> <div id="n11" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>11</th>
+
+		<th  value="14"> <div id="n14" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>14</th>
+
+		<th  value="17"> <div id="n17" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>17</th>
+
+		<th  value="20"> <div id="n20" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>20</th>
+
+		<th  value="23"> <div id="n23" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>23</th>
+
+		<th  value="26"> <div id="n26" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>26</th>
+
+		<th  value="29"> <div id="n29" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>29</th>
+
+		<th  value="32"> <div id="n32" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>32</th>
+
+		<th  value="35"> <div id="n35" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>35</th>
+
+		<th><div  id="fila2" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 2 a 1</th>
+
+
+	</tr>								
+
+	<tr>		
+
+
+		<th id="c3">  </th>
+
+		<th  value="1 "><div id="n1" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 1 </th>
+
+		<th  value="4 "><div id="n4" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;" value=""><span id="n4">0</span></div> 4 </th>
+
+		<th  value="7 "><div id="n7" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 7 </th>
+
+		<th  value="10"><div id="n10" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 10</th>
+
+		<th  value="13"><div id="n13" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 13</th>
+
+		<th  value="16"><div id="n16" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 16</th>
+
+		<th  value="19"><div id="n19" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 19</th>
+
+		<th  value="22"><div id="n22" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 22</th>
+
+		<th  value="25"><div id="n25" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 25</th>
+
+		<th  value="28"><div id="n28" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 28</th>
+
+		<th  value="31"><div id="n31" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 31</th>
+
+		<th  value="34"><div id="n34" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 34</th>
+
+		<th > <div id="fila3" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>2 a 1</th>
+
+
+	</tr>							
+
+	<tr>
+		<th></th>
+
+		<th  colspan="4"> <div id="docena1"  style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>1ª 12</th>
+
+		<th  colspan="4"><div  id="docena2" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 2ª 12</th>
+
+		<th  colspan="4"><div  id="docena3" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 3ª 12</th>
+			<th></th>
+
+	</tr>							
+
+	<tr>							
+		<th><button id="btn-opciones" style="font-size:50px" class="w3-btn w3-white"><i class="fa fa-gear"></i></button></th>
+
+		<th  colspan="2"> <div id="primera_mitad" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>1-18</th>
+
+		<th colspan="2"><div  id="par" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>PAR</th>
+
+		<th   colspan="2">
+			
+		<div id="c_rojo" style="color: red; margin: 0px; height: 20px; width: 30px; margin-top: 0px;">0</div>	<div id="rojo"> </div>
+
+		</th>
+
+		<th  colspan="2">
+
+		<div id="c_negro" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: 0px;">0</div>	<div id="negro"> </div>
+ 
+		</th>
+
+		<th  colspan="2"><div id="impar" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div>IMPAR</th>
+
+		<th  colspan="2"><div id="segunda_mitad" style="color: black; margin: 0px; height: 20px; width: 30px; margin-top: -10px;">0</div> 19-36</th>
+			<th> <div  style="border: 1px solid black; border-radius: 50%; height: 50px; width: 50px; margin-top: 10px; margin: 0 auto; text_align: center"><b  id="contador" style="display: inherit; margin-top: 15px;"></b> </div></th>
+
+
+	</tr>							
+
+</table>
+
+</div>
+
+
+
+<!--
+<div id="d0">
+
+<div id="d1">
+			<div id="dn0">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn1">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn2">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn3">  <div style="height: 40px; background: red; position: absolute"> </div> </div>	
+			<div id="dn4">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn5">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn6">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn7">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn8">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn9">  <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn10"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn11"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn12"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn13"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn14"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn15"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn16"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn17"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn18"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn19"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn20"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn21"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn22"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn23"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn24"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn25"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn26"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn27"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn28"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn29"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn30"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn31"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn32"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn33"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn34"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn35"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			<div id="dn36"> <div style="height: 40px; background: red; position: absolute"> </div> </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	<div id="d2">
+		
+	
+		
+		
+		
+	</div>
+	
+	
+</div>
+
+</div>
+-->
+
+
+
+<div id="divTablaHot">
+	
+	<table style="margin: 0 auto">
+		
+		
+			<tr id="posHot">
+			
+			
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+			<th>5</th>
+			<th>6</th>
+			<th>7</th>
+			<th>8</th>
+			<th>9</th>
+			<th>10</th>
+			<th>11</th>
+			<th>12</th>
+			<th>13</th>
+			<th>14</th>
+			<th>15</th>
+			<th>16</th>
+			<th>17</th>
+			<th>18</th>
+			<th>19</th>
+			<th>20</th>
+			<th>21</th>
+			<th>22</th>
+			<th>23</th>
+			<th>24</th>
+			<th>25</th>
+			<th>26</th>
+			<th>27</th>
+			<th>28</th>
+			<th>29</th>
+			<th>30</th>
+			
+		</tr>
+		
+		<tr>
+			
+			
+			<th><div id="hot1"> </div></th>
+			<th id="hot2"></th>
+			<th id="hot3"></th>
+			<th id="hot4"></th>
+			<th id="hot5"></th>
+			<th id="hot6"></th>
+			<th id="hot7"></th>
+			<th id="hot8"></th>
+			<th id="hot9"></th>
+			<th id="hot10"></th>
+			<th id="hot11"></th>
+			<th id="hot12"></th>
+			<th id="hot13"></th>
+			<th id="hot14"></th>
+			<th id="hot15"></th>
+			<th id="hot16"></th>
+			<th id="hot17"></th>
+			<th id="hot18"></th>
+			<th id="hot19"></th>
+			<th id="hot20"></th>
+			<th id="hot21"></th>
+			<th id="hot22"></th>
+			<th id="hot23"></th>
+			<th id="hot24"></th>
+			<th id="hot25"></th>
+			<th id="hot26"></th>
+			<th id="hot27"></th>
+			<th id="hot28"></th>
+			<th id="hot29"></th>
+			<th id="hot30"></th>
+			
+		</tr>
+	
+	</table>
+	
+</div>
+
+	<h6 style="text-align: center; margin: 0px"> GMARSI SOFTWARES</h6>
+
+		<script type="text/javascript" src="librerias/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+
+
+	</body>
+
+</html>
+
+
+
+
+<!--colores OK --> 
